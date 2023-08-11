@@ -5,11 +5,16 @@
 }
 body {
   font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 ul {
@@ -32,6 +37,7 @@ a {
 
 .bright {
   font-size: 60px;
+  color: hsl(240, 100%, 5%);
 }
 
 p {
@@ -41,7 +47,7 @@ p {
 .btn {
   padding: 14px 50px;
   font-weight: 700;
-  background-color: hsl(240, 100%, 5%);
+  background-color: hsl(5, 85%, 63%);
   border: none;
   color: white;
 }
@@ -108,7 +114,8 @@ p {
 
 .div2 {
   display: grid;
-  grid-template-columns: 370px 370px 370px;
+  grid-template-columns: 350px 350px 360px;
+  margin-top: 50px;
 }
 
 .pri {
@@ -128,5 +135,36 @@ p {
 }
 
 .first {
-  width: 140px;
+  width: 109px;
+  height: 140px;
+}
+
+.side {
+  margin-left: 20px;
+}
+
+.text {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: hsl(233, 8%, 79%);
+}
+
+.logo {
+  width: 80px;
+  height: 60px;
+}
+
+.text:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+a:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.btn:hover {
+  background-color: hsl(240, 100%, 5%);
 }
