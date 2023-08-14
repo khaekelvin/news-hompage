@@ -5,10 +5,10 @@
 }
 body {
   font-family: "Inter", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  /* /* display: flex;
+  /* justify-content: center; */
+  /* align-items: center;
+  height: 100vh; */
 }
 
 nav {
@@ -179,4 +179,41 @@ a:hover {
 
 .text1 {
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+  .img1 {
+    display: none;
+  }
+  .imglast {
+    display: flex;
+    width: 600px;
+  }
+  .div2 {
+    display: grid;
+    /* grid-template-columns: 350px 350px 330px; */
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .second {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .bright {
+    text-align: center;
+  }
+  .evo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
