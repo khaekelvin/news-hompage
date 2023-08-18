@@ -14,7 +14,8 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 ul {
@@ -46,7 +47,7 @@ p {
 }
 
 .btn {
-  padding: 14px 50px;
+  padding: 20px 60px;
   font-weight: 700;
   background-color: hsl(5, 85%, 63%);
   border: none;
@@ -63,12 +64,12 @@ p {
 .evo {
   line-height: 40px;
   margin-bottom: 40px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .box {
   width: 610px;
-  height: 624px;
+  height: 743px;
   background-color: hsl(240, 100%, 5%);
   padding: 20px;
   line-height: 27px;
@@ -76,36 +77,48 @@ p {
 
 .new {
   padding-top: 26px;
-  padding-bottom: 20px;
-  font-size: 50px;
+  padding-bottom: 50px;
+  font-size: 80px;
   color: hsl(35, 77%, 62%);
 }
 
 .hy {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  font-size: 30px;
   color: white;
 }
 
 .will {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+  font-size: 20px;
   color: white;
 }
 
 .down {
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  font-size: 30px;
+  padding-bottom: 20px;
   color: hsl(35, 77%, 62%);
 }
 
 .pos {
+  padding-bottom: 50px;
+  font-size: 20px;
+  color: white;
+}
+p {
+  font-size: 20px;
+}
+.vc {
+  font-size: 30px;
+  padding-top: 50px;
   padding-bottom: 20px;
   color: white;
 }
-
-.vc {
-  padding-top: 20px;
-  padding-bottom: 7px;
+.pri {
+  padding-bottom: 50px;
+  font-size: 20px;
   color: white;
 }
 
@@ -120,7 +133,7 @@ p {
   display: grid;
   /* grid-template-columns: 350px 350px 330px; */
   grid-template-columns: 0.3fr 0.3fr 0.3fr;
-  /* grid-gap: 20px; */
+  grid-gap: 90px;
   margin-top: 50px;
 }
 
@@ -141,8 +154,8 @@ p {
 }
 
 .first {
-  width: 109px;
-  height: 140px;
+  width: 230px;
+  height: 240px;
 }
 
 .side {
@@ -157,6 +170,7 @@ p {
 
 h1 {
   color: hsl(233, 8%, 79%);
+  font-size: 50px;
 }
 
 .logo {
@@ -179,43 +193,6 @@ a:hover {
   display: none;
 }
 
-.text1 {
-  margin-bottom: 20px;
-}
-
-@media only screen and (max-width: 375px) {
-  .img1 {
-    display: none;
-  }
-  .imglast {
-    display: flex;
-    width: 600px;
-  }
-  .div2 {
-    display: grid;
-    /* grid-template-columns: 350px 350px 330px; */
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .second {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .bright {
-    text-align: center;
-  }
-  .evo {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .mid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+.text {
+  font-size: 30px;
 }
